@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>foodies</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./recipe.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="float-left">
+                    <img 
+                        src=".//Images/image-9@2x.png" 
+                        alt="" 
+                        class="user"
+                    />
+                </div>
+                <div>
+                    <img 
+                        src=".//Images/logo.png" 
+                        alt="" 
+                        class="logo" 
+                    />
+                </div>
+                <div class="lists">
+                    <ul class="header-rightSide">
+                        <li><a href="http://"> Newsletter</a></li>
+                        <li><a href="http://">Subscribe</a></li>
+                        <li><a href="http://">SignIn</a></li>
+                    </ul>
+                </div>
+            </header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <ul class="navigation">
+                        <li> 
+                            <a class="navbar-home navitems"  href="./index.html">Home</a> 
+                        </li>
+                        <li> 
+                            <a class="navbar-culture navitems" href="./culture.html">Culture</a> 
+                        </li>
+                        <li> 
+                            <a class="navbar-ingredients navitems" href="./ingredients.html">Ingredients</a> 
+                        </li>
+                        <li>
+                            <a class="navbar-recipe navitems" href="./recipe.html">Recipe</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" 
+                            type="search" 
+                            placeholder="Search for 'Rice'" 
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">Search </button>
+                    </form>
+                </div>
+            </nav>
+            <main>
+                <div class="main">
+                    <h1 class="apetit" id="para-text">BON APPÉTIT!</h1>
+                    <h4 class="delicious-meal">Everything you need for a delicious meal</h4>
+                    <div class="container">
+                        <div class="myRecipe">
+                            <img src=".//Images/Recipe.jpg" style="width: 100%;" height="420px">
+                            <div class="centered">RECIPE</div>
+                            <div class="centered-2">Enjoy it!</div>
+                        </div>
+                        <a class="next" href="./Recipe1.html" onclick="plusSlides(1) ">&#10095;</a>
+                    </div>
+                </div>        
+            </main>
+            <footer class="footer">
+                <div class="overlap-group1-2">
+                   <div class="footer-1"></div>
+                       <p class="copyright">
+                           <span class="inraiserif-normal"> @copyright 2023. All rights reserved. Acceptance of our </span>
+                           <a href="http://">
+                               <span class="span-1">User Agreement</span>
+                           </a>
+                           <span class="inraiserif-normal"> , </span>
+                           <a href="http://">
+                               <span class="span-1">Privacy Policy</span>
+                           </a>
+                           <span class="inraiserif-normal"> and </span>
+                           <a href="http://">
+                               <span class="span-1">Cookie Statement</span>
+                           </a>
+                       </p>
+                       <img 
+                           src=".//Images/line-1.svg" 
+                           alt="line 1"   
+                           class="line-1"
+                       />
+                       <img 
+                           src=".//Images/line-2.svg" 
+                           alt="line 2" 
+                           class="line-2"
+                       />
+                       <img 
+                           src=".//Images/logo-1.png" 
+                           alt="logo" 
+                           class="logo-1" 
+                       />
+                       <div class="left-side">
+                           <div class="crunch valign-text-middle">Crucnch your Hunger</div>
+                           <img 
+                               src=".//Images/social-icon@2x.png" 
+                               alt="social icon"
+                               class="social-icon"
+                           />
+                       </div>
+                       <div class="right-side">
+                           <div class="moreinfo">
+                               <div class="more-from-foodies valign-text-midle inter-bold-romance-20px">MORE FROM FOODIES</div>
+                               <div class="newsletter-1 valign-text-midle inter-bold-romance-20px">Newsletter</div>
+                               <div class="healthy-tips valign-text-midle inter-bold-romance-20px">HealthyTips</div>
+                               <div class="archive valign-text-midle inter-bold-romance-20px">Archive</div>
+                           </div>
+                           <img 
+                               src=".//Images/line-2.svg" 
+                               alt="line 3" 
+                               class="line-3"
+                           />
+                           <div class="contact-us">
+                               <div class="contact-us-1 valign-text-middle inter-bold-romance-20px">CONTACT US</div>
+                               <div class="foodiescookorg valign-text-middle inter-light-romance-20px">foodies@cook.org</div>
+                               <div class="wwwfoodiescom valign-text-middle inter-light-romance-20px">www.foodies.com</div>
+                               <div class="text-1 valign-text-middle inter-light-romance-20px">+000-123-1234</div>
+                           </div>
+                       </div>
+                   </div>
+            </footer>
+        </div>
+        <script src="./index.js"></script>
+        <script src="./ingredients.js"></script>
+    </body>
+</html>
